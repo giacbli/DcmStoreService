@@ -11,7 +11,7 @@ The application (C++ compiled) implements the Dicom Storage SCP Service and runs
 - Some simple scripts and files are provided to manage and configure the application as automatic MS Windows system service (24 hrs)
 
 
-**Please read attached file ReadMe_DcmStore.pdf for more details and for the installation instructions.**
+**Please read the file ReadMe_DcmStore.pdf for more details and for the installation instructions.**
    
 
 First release available, Sep, 2023 - vers. 1.1
