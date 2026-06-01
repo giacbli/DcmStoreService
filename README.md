@@ -30,7 +30,7 @@ First release available, Sep, 2023 - vers. 1.1
 - A new option is available to let storing of any Structured Report file in a single folder or in a tree structure of subfolders.
 - This tool attempts to intercept anomalous cases where images from different acquisitions, but belonging to the same study, are sent with the same serial number and instance index as previously stored images. A filename splitting (numbering extension) mode has been implemented to prevent overwriting during archiving.
 
-
+###
 
 ![Send-to-storage service-ultrasmall](https://github.com/giacbli/DcmStoreService/assets/15181782/d3c31ce8-046b-45f6-831f-87aec9ed98c1)
 
