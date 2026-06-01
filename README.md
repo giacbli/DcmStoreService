@@ -6,7 +6,9 @@ The application (C++ compiled) implements the Dicom Storage SCP Service and runs
 ### Some features:
 - Can receive medical images and structured reports on radiation dose in Dicom format from company PACS and radiology equipment
 
-- Creates a tree-architecture folder system (based on study ID or patient name) for archiving study images
+- Multithreaded architecture to handle concurrent client connections
+
+- Creates a tree-architecture folder system (based on study ID or patient name) for archiving study images. Cabability to create the DICOMDIR directory file.
 
 - Some simple scripts and files are provided to manage and configure the application as automatic MS Windows system service (24 hrs)
 
