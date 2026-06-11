@@ -28,9 +28,9 @@ First release available, Sep, 2023 - vers. 1.1
 
 ## Vers. 1.4, July, 2025
 ### New features available in this latest release:
-- It is now possible to manage a custom list of DICOM images and non-image DICOM objects, read from a configuration file. It also provides a choice of transfer syntaxes among those negotiable with the SCU client application (including compression). Without this configuration file, the storage server still works normally for a set of default Dicom SOP classes.
-- A new option is available to let storing of any Structured Report file in a single folder or in a tree structure of subfolders.
-- This tool attempts to intercept anomalous cases where images from different acquisitions, but belonging to the same study, are sent with the same serial number and instance index as previously stored images. A filename splitting (numbering extension) mode has been implemented to prevent overwriting during archiving.
+- It is now possible to manage a custom list of DICOM images and non-image DICOM objects, read from a configuration file. Negotiation of a set of transfer syntaxes (including compression) with the SCU client application is also enabled. If the configuration file is not found, the server works regularly for a set of default Dicom SOP classes.
+- A new option is available that allows you to choose whether to save any Structured Report in a single folder, rather than in a tree structure of subfolders.
+- The server attempts to intercept anomalous cases in which images from different acquisitions but belonging to the same study and series are sent by the modality even with the same instance index as other previously stored images.  Consequently, a filename splitting mode (extension numbering) has been implemented to prevent overwriting during archiving.This side effect should not occur if files are named using Dicom unique identifiers (UID).
 
 ###
 
