@@ -21,10 +21,11 @@ New features available in this release:
 
 Latest release, July 2025 - vers. 1.4
 
-New features available in this  release:
-- It is now possible to manage a custom list of DICOM images and non-image DICOM objects, read from a configuration file. It also offers a choice of transfer syntaxes among those provided and negotiable with the SCU client application. If the configuration file is not found, the storage server works regularly for a set of default Dicom SOP classes.
-- A new option is available to let storing of any Structured Report file in a single folder or in a tree structure of subfolders.
-- The system tries to intercept anomalous situations in which the images from different acquisitions, but belonging to the same study, are sent with the same serial number and instance index as the previously stored images. A filename splitting mode (numbering extension) has been implemented to prevent overwriting during archiving. This abnormal situation of possible overwriting should not occur if files are named using Dicom unique identifiers (UID).
+New features available in the latest release:
+
+- It is now possible to manage a custom list of DICOM images and non-image DICOM objects, read from a configuration file. Negotiation of a set of transfer syntaxes (including compression) with the SCU client application is also enabled. If the configuration file is not found, the server works regularly for a set of default Dicom SOP classes.
+- A new option is available that allows you to choose whether to save any Structured Report in a single folder, rather than in a tree structure of subfolders.
+- The server attempts to intercept anomalous cases in which images from different acquisitions but belonging to the same study and series are sent by the modality even with the same instance index as other previously stored images.  Consequently, a filename splitting mode (extension numbering) has been implemented to prevent overwriting during archiving.This side effect should not occur if files are named using Dicom unique identifiers (UID).
 
 Please read file ReadMe_DcmStore.pdf for more details and installation instructions.
 
