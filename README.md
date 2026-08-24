@@ -45,5 +45,4 @@ First release available, Sep, 2023 - vers. 1.1
 
 
 Author: Giacomo Belli -
-Health Physics Unit – AOU Careggi
 Florence - Italy
